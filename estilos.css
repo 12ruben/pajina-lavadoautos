@@ -1,0 +1,9 @@
+body {
+      height: 800px;
+      background-image: url("https://media.revistagq.com/photos/5f48ed4303497885f5f823a4/2:3/w_605,h_908,c_limit/1366_2000.jpg");
+      background-size: cover;
+      background-size: 25rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment:fixed;
+    }

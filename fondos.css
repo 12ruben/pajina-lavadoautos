@@ -1,0 +1,35 @@
+#fotos {
+      width: 1000 px;
+      height:512 px;
+      
+      animation-name: slidein;
+      animation-duration:5s;
+      animation-iteration-count: infinite;
+      animation-play-state:running;
+      background-repeat: no-repeat;
+      animation-direction:alternate-reverse;
+      animation-timing-function:linear;
+      
+
+}
+
+#fotos:hover{
+
+animation-play-state:paused;
+
+}
+
+@-webkit-keyframes slidein {
+
+@%{
+      width:512 px;
+      height:512 px;
+      background: url("2.jpg") repeat;
+      
+
+}
+
+}
+
+}
+

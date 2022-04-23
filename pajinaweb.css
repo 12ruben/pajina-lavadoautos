@@ -1,0 +1,142 @@
+
+
+body{
+
+
+      background-color: #ffdd90;
+      background-image: url("lavadoautos.jpg");
+
+
+
+margin: 10px;
+font-family:'late';
+font-size:1.25rem;
+width: 300px;
+
+}
+
+form, p{
+margin: 20px;
+
+}
+p.note{
+
+      font-size:1rem;
+      color:red;
+}
+
+input, textarea{
+
+      border-radius: 3px;
+      border:1px solid #ccc;
+      padding: 4px;
+      font-family:'lato';
+      width: 300px;
+      margin-top :10px;
+}
+
+label {
+
+      width:300px;
+      font-weight: bold;
+      display:inline-block;
+margin-top: 10px;
+
+}
+
+label span{
+font-size: 1 rem;
+
+}
+
+label.error{
+
+color:red;
+font-size: 1rem;
+display: block;
+margin-top:5px;
+
+}
+
+
+input.error.textarea.error{
+
+border:10px dashed red;
+font-weight: 300;
+color:red;
+
+}
+
+
+[type="submit"],[type="reset"],button,html[type="button"]{
+
+      margin-left: 0;
+      border-radius: 0;
+      background:black;
+      color:white;
+      border:none;
+      font-weight: 300px;
+      padding:10px 0;
+line-height: 1.5;
+
+}
+{
+*, html , body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+form{
+	width:50px;
+	padding:32px;
+	border:1px solid #000;
+	border-radius:10px;
+	margin:32px auto;
+}
+
+form label, form input[type="text"],form input[type="email"],form input[type="submit"]{
+	display:inline-block;
+	/*width:40%;*/
+	padding:4px 8px;
+	margin:8px 0;
+}
+
+form input[type="radio"]{
+	display:inline-block;
+	margin-left:8px;
+}
+
+.estrellita{
+	width:32px;
+}
+.caramelo{
+	width:115px;
+}
+
+.bloque{display:block;width:100%;}
+
+form label{
+	font-weight:bold;
+	font-size:18px;
+}
+
+form select{width:100%;}
+
+form textarea{
+	width:100%;
+	height:96px;
+	resize:vertical;
+}
+
+input[type="submit"]{
+	width:100%;
+	margin-top:32px;
+
+	background-color:#000;
+	border-radius:5px;
+	color:#fff;
+	text-align:center;
+}
+
+
+}
